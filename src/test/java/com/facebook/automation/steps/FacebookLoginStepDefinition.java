@@ -33,7 +33,7 @@ WebDriver driver = PageFactory.instance().getWebDriver();
 	}
 
 	@Then("^(.*?) Validation message should be displayed$")
-	public void filltheRequerdFields(String validation) throws Throwable {
+	public void ValidationAssertion(String validation) throws Throwable {
 		PageFactory.instance().HomePage().AssertValidationMessages(validation);
 	}
 
